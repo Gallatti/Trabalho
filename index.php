@@ -23,23 +23,25 @@
         <!-- Inicio do box de acesso -->
         <div class="modal-dialog">
             <div class="modal-content">
-                <form action="/action_page.php">
+                <form action="">
+                    <br>
                     <div class="form-group">
-                        <label for="email">Usuário:</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        <label> Usuário:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu usuário" name="nome">
                     </div>
                     <div class="form-group">
-                        <label for="pwd">Password:</label>
-                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        <label> Senha:</label>
+                        <input type="password" class="form-control" id="pwd" placeholder="Digite sua senha" name="senha">
                     </div>
                     <div class="form-group form-check">
                         <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                            <input class="form-check-input" type="checkbox" name="remember"> Lembrar
                         </label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary"> Entrar</button>
+                    <button type="submit" class="btn btn-primary"> Cacelar</button>
                 </form>
-
+                <br>
             </div>
         </div>
     </div>
@@ -48,10 +50,6 @@
 </div>
 
 
-<!-- Modal -->
-<div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-
-</div>
 
 </body>
 </html>
